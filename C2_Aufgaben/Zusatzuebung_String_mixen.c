@@ -82,6 +82,11 @@ void mixstring(char *ziel, char quelle1[], char quelle2[])
 	}
 }
 
+void mixstring2(char ziel, char quelle1[], char quelle2[])
+{
+
+}
+
 //ermittlung der Array L‰nge ohne den abschlieﬂenden Zeilenumbruch
 int ownstrlen(char string[])
 {

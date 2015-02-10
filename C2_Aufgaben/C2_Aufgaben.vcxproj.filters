@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Zusatzuebung_reversestring.c">
+    <ClCompile Include="Zusatzuebung_reverse_satz.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

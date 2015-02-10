@@ -14,7 +14,7 @@
     <ClInclude Include="common.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Zusatzuebung_reversestring.c" />
+    <ClCompile Include="Zusatzuebung_reverse_satz.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3280944B-BF32-4800-9214-B7B07BCAFD7E}</ProjectGuid>

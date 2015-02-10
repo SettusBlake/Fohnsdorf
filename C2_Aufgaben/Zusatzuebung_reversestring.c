@@ -4,7 +4,7 @@
 
 #define MAX_ARRAY	200
 
-void reversestring(char *caString[], int laenge);
+void reversestring(char *caString[], int laenge); //Dreht eine Zeichenkette um - liefert kein Ergebnis zurück. Das Array wird durch die adresse direkt verändert
 
 int main(void)
 {
