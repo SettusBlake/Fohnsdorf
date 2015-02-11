@@ -6,12 +6,8 @@
 
 int ownstrlen(char string[])
 {
-	int i = 0;
-	while (string[i] != 10)
-	{
-		i++;
-	}
-
+	int i;
+	for (i = 0; string[i] != '\0'; ++i);
 	return i;
 }
 
@@ -30,4 +26,14 @@ int random_number(int min_num, int max_num)
 	srand(time(NULL));
 	result = (rand() % (hi_num - low_num)) + low_num;
 	return result;
+}
+
+void ownstrcpy(char *caZielstring, char *caQuellstring)
+{
+	int i = 0;
+	while (*(caQuellstring + i) != 10)
+	{
+		*(caZielstring + i) = *(caQuellstring + i);
+		i++;
+	}
 }
